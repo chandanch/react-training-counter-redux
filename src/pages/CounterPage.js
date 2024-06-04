@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import Button from '../components/Button';
-import Panel from '../components/Panel';
+import { useState } from "react";
+import Button from "../components/Button";
+import Panel from "../components/Panel";
 
 function CounterPage({ initialCount }) {
   const [count, setCount] = useState(initialCount);
@@ -35,7 +35,7 @@ function CounterPage({ initialCount }) {
       <form onSubmit={handleSubmit}>
         <label>Add a lot!</label>
         <input
-          value={valueToAdd || ''}
+          value={valueToAdd || ""}
           onChange={handleChange}
           type="number"
           className="p-1 m-3 bg-gray-50 border border-gray-300"
